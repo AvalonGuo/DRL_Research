@@ -42,4 +42,4 @@ for i in range(1000):
 env.close()
 ```
 The result of the obove code:
-![](PPO/ppo_example.png)
+![ppo_example](PPO/ppo_example.png)
