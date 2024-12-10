@@ -1,9 +1,13 @@
 # Policy Optimization
 ## Policy Gradient Methods
 Policy gradient methods work by __computing an estimator of the policy gradient(近似估计)__ and plugging it into a stochastic gradient ascent algorithm.The most commonly used gradient estimator has the form:
+<<<<<<< HEAD
 ```math
 \hat{g} = \widehat{\mathbb{E}}_t \left[ \nabla_\theta \log \pi_\theta(a_t \mid s_t) \hat{A}_t \right]
 ```
+=======
+$$ \hat{g} = \widehat{\mathbb{E}}_t \left[ \nabla_\theta \log \pi_\theta(a_t \mid s_t) \hat{A}_t \right]$$
+>>>>>>> fa4dd96 (math)
 * $\hat{g}$ represents the estimated gradient of the expected return.
 * $\hat{\mathbb{E}_t }$ denotes the empirical expectation over time steps t.
 * $\nabla_\theta$ is the gradient with respect to the parameters θ of the policy.
