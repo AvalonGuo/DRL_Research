@@ -55,6 +55,6 @@ Adaptive KL penalty coefficient is an alternative to the clipped surrogate objec
 ```math
 L^{KL PEN}(\theta) = \mathbb{E}_t \left[ \frac{\pi_\theta(a_t \mid s_t)}{\pi_{\theta_{\text{old}}}(a_t \mid s_t)} \hat{A}_t - \beta \, \text{KL} \left[ \pi_{\theta_{\text{old}}}(\cdot \mid s_t), \pi_\theta(\cdot \mid s_t) \right] \right]
 ```
-* Compute $ d = \hat{\mathbb{E}_t} \left[\text{KL} \left[\pi_{\theta_{\text{old}}}(\cdot \mid s_t), \pi_\theta(\cdot \mid s_t) \right] \right] $, if $d < d_{targ}/1.5, \beta \Leftarrow \beta/2$; if $d > 1.5d_{targ}, \beta \Leftarrow 2\beta$.
+* Compute $d = \hat{\mathbb{E}_t} \left[\text{KL} \left[\pi_{\theta_{\text{old}}}(\cdot \mid s_t), \pi_\theta(\cdot \mid s_t) \right] \right]$, if $d < d_{targ}/1.5, \beta \Leftarrow \beta/2$; if $d > 1.5d_{targ}, \beta \Leftarrow 2\beta$.
 
  The updated β is used for the next policy update.
