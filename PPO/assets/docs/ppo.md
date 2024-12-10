@@ -19,7 +19,7 @@ __Off-policy__ algorithms can use previously collected sample data (potentially 
 ### Stable-baseline3
 First create a conda environment:```conda create -n SB3 python==3.9```.Then install the stable-baseline3:```pip install stable-baselines[extra]```.Here is a quick example of how to train and run PPO on a cartpole environment:
 
-```
+```python
 import gymnasium as gym
 
 from stable_baselines3 import PPO
@@ -43,4 +43,4 @@ env.close()
 ```
 The result of the obove code:
 
-![ppo_example](ppo_example.png)
+![ppo_example](../ppo_example.png)
