@@ -5,3 +5,4 @@ $$
 & \text{subject to} & & \hat{\mathbb{E}}_t [\text{KL}[\pi_{\theta_{\text{old}}}(\cdot \mid s_t), \pi_{\theta}(\cdot \mid s_t)]] \leq \delta.
 \end{aligned}
 $$
+$\sqrt{x-1}$
