@@ -29,6 +29,7 @@ The theory justifying TRPO actually suggests using a penalty instead of a constr
 ```math
 \text{maximize}(\theta)\quad\hat{\mathbb{E}}_t \left[ \frac{\pi_{\theta}(a_t \mid s_t)}{\pi_{\theta_{\text{old}}}(a_t \mid s_t)} \hat{A}_t - \beta \, \text{KL} \left[ \pi_{\theta_{\text{old}}}(\cdot \mid s_t), \pi_{\theta}(\cdot \mid s_t) \right] \right]
 ``` 
+`#0969DA` 
 * $\beta$ is a coefficent(or hyperparameters), which used by TRPO for hard constraint rather than a penalty. <span style="color:orange">Because it is hard to choose a single value of β that performs well across different problems or even within a single problem.</span>
 
 ## Clipped Surrogate Objective
