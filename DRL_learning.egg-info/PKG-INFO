@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: DRL_learning
+Version: 0.0.0
+Author-email: AvalonGuo <1339296390@qq.com>
+Requires-Python: >=3.9
+Requires-Dist: stable-baselines3[extra]

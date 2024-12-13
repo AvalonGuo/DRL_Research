@@ -42,7 +42,7 @@ L^{CLIP}(\theta) = \hat{\mathbb{E}}_t \left[ \min(r_t(\theta) \hat{A}_t, \text{c
 
 The first term inside the min is $L^{CPI}$, the superscript CPI refers to conservative policy iteration. The second term, $\text{clip}(r_t(\theta), 1 - \epsilon, 1 + \epsilon) \hat{A}_t$, modifies the surrogate objective by clipping the probability ratio, __which removes the incentive for moving $r_t$ outside of the interval [1 − ϵ,1 +ϵ]__.
 <p align="center">  
-  <img src="../clip.png" alt="Image" style="width:70%; height:auto;">  
+  <img src="./pics/clip.png" alt="Image" style="width:70%; height:auto;">  
 </p>
 
 The picture bellow shows that:

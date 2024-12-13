@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name= "DRL_learning"
+dynamic = ["version"]
+dependencies = [
+    "stable-baselines3[extra]"
+]
+requires-python = ">=3.9"
+authors = [
+  {name = "AvalonGuo", email = "1339296390@qq.com"},
+]

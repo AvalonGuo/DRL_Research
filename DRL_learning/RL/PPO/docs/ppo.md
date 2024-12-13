@@ -43,4 +43,4 @@ env.close()
 ```
 The result of the obove code:
 
-![ppo_example](../ppo_example.png)
+![ppo_example](./pics/ppo_example.png)
